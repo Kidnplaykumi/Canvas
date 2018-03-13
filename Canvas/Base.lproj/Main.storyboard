@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,39 +15,39 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Canvas" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5aX-xU-5DH">
-                                <rect key="frame" x="0.0" y="429" width="375" height="238"/>
+                                <rect key="frame" x="0.0" y="476" width="414" height="260"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="dead" translatesAutoresizingMaskIntoConstraints="NO" id="Eey-Bn-Zxd">
-                                        <rect key="frame" x="31" y="29" width="60" height="60"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                    </imageView>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="excited" translatesAutoresizingMaskIntoConstraints="NO" id="HTz-Uj-TeE">
-                                        <rect key="frame" x="31" y="131" width="60" height="60"/>
+                                        <rect key="frame" x="44" y="151" width="60" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="happy" translatesAutoresizingMaskIntoConstraints="NO" id="2wa-1R-Koo">
-                                        <rect key="frame" x="157" y="29" width="60" height="60"/>
+                                        <rect key="frame" x="177" y="47" width="60" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="sad" translatesAutoresizingMaskIntoConstraints="NO" id="hgp-ga-7Nc">
-                                        <rect key="frame" x="157" y="131" width="60" height="60"/>
+                                        <rect key="frame" x="177" y="151" width="60" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="tongue" translatesAutoresizingMaskIntoConstraints="NO" id="xz2-ca-XIb">
-                                        <rect key="frame" x="284" y="29" width="60" height="60"/>
+                                        <rect key="frame" x="310" y="47" width="60" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="wink" translatesAutoresizingMaskIntoConstraints="NO" id="9G8-mZ-isU">
-                                        <rect key="frame" x="284" y="131" width="60" height="60"/>
+                                        <rect key="frame" x="310" y="151" width="60" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="down_arrow" translatesAutoresizingMaskIntoConstraints="NO" id="YUf-Ki-Ji8">
-                                        <rect key="frame" x="177" y="7" width="20" height="14"/>
+                                        <rect key="frame" x="197" y="25" width="20" height="14"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="dead" translatesAutoresizingMaskIntoConstraints="NO" id="Eey-Bn-Zxd">
+                                        <rect key="frame" x="44" y="47" width="60" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
                                 </subviews>
@@ -62,7 +62,6 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="didPanTray" destination="11B-E6-njw" id="yBT-QH-uRT"/>
                         <outlet property="trayView" destination="5aX-xU-5DH" id="0OO-kU-YJs"/>
                     </connections>
                 </viewController>
@@ -73,7 +72,7 @@
                     </connections>
                 </panGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+            <point key="canvasLocation" x="136.23188405797103" y="132.88043478260872"/>
         </scene>
     </scenes>
     <resources>
