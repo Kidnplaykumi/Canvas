@@ -13,37 +13,6 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <panGestureRecognizer minimumNumberOfTouches="1" id="yYY-ly-d0Z">
-                    <connections>
-                        <action selector="didPanFace:" destination="BYZ-38-t0r" id="oHT-f2-HRO"/>
-                    </connections>
-                </panGestureRecognizer>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <panGestureRecognizer minimumNumberOfTouches="1" id="3db-eM-9ld">
-                    <connections>
-                        <action selector="didPanFace:" destination="BYZ-38-t0r" id="KuF-lY-Uki"/>
-                    </connections>
-                </panGestureRecognizer>
-                <panGestureRecognizer minimumNumberOfTouches="1" id="11B-E6-njw">
-                    <connections>
-                        <action selector="didPanTray:" destination="BYZ-38-t0r" id="ewk-1u-KsB"/>
-                    </connections>
-                </panGestureRecognizer>
-                <panGestureRecognizer minimumNumberOfTouches="1" id="c2k-gg-H9b">
-                    <connections>
-                        <action selector="didPanFace:" destination="BYZ-38-t0r" id="Rmj-4f-yfP"/>
-                    </connections>
-                </panGestureRecognizer>
-                <panGestureRecognizer minimumNumberOfTouches="1" id="sHH-JX-AZ7">
-                    <connections>
-                        <action selector="didPanFace:" destination="BYZ-38-t0r" id="GvW-fV-yPM"/>
-                    </connections>
-                </panGestureRecognizer>
-                <panGestureRecognizer minimumNumberOfTouches="1" id="woe-s8-MZX">
-                    <connections>
-                        <action selector="didPanFace:" destination="BYZ-38-t0r" id="YzD-EY-ciQ"/>
-                    </connections>
-                </panGestureRecognizer>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Canvas" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
@@ -101,6 +70,9 @@
                                         <rect key="frame" x="44" y="47" width="60" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="HwS-eZ-l2x" appends="YES" id="3pi-H5-ifX"/>
+                                        </connections>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -117,6 +89,42 @@
                         <outlet property="trayView" destination="5aX-xU-5DH" id="0OO-kU-YJs"/>
                     </connections>
                 </viewController>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="yYY-ly-d0Z">
+                    <connections>
+                        <action selector="didPanFace:" destination="BYZ-38-t0r" id="oHT-f2-HRO"/>
+                    </connections>
+                </panGestureRecognizer>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="3db-eM-9ld">
+                    <connections>
+                        <action selector="didPanFace:" destination="BYZ-38-t0r" id="KuF-lY-Uki"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="11B-E6-njw">
+                    <connections>
+                        <action selector="didPanTray:" destination="BYZ-38-t0r" id="ewk-1u-KsB"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="c2k-gg-H9b">
+                    <connections>
+                        <action selector="didPanFace:" destination="BYZ-38-t0r" id="Rmj-4f-yfP"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="sHH-JX-AZ7">
+                    <connections>
+                        <action selector="didPanFace:" destination="BYZ-38-t0r" id="GvW-fV-yPM"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="woe-s8-MZX">
+                    <connections>
+                        <action selector="didPanFace:" destination="BYZ-38-t0r" id="YzD-EY-ciQ"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="HwS-eZ-l2x">
+                    <connections>
+                        <action selector="didPanFace:" destination="BYZ-38-t0r" id="0ML-Vb-1f1"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="136.23188405797103" y="132.88043478260872"/>
         </scene>
